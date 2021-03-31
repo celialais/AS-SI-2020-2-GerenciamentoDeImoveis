@@ -1,5 +1,5 @@
-# Sistema-CorretoresDeImoveis
-Sistema de cadastro de imóveis e agendamento de visitas para corretores de imóveis
+# Sistema-Gerenciamento de imóveis 
+Sistema de gerenciamento de imóveis alugados 
 
 1.Gestão
 2.Design
