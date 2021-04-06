@@ -1,5 +1,0 @@
-Atributos prioritários de Qualidade
-
-- Disponibilidade: o software deve estar disponível para uso quando requisitado. O sistema dever reparar e mascarar falhas para cumprir a requisição sem exceder o tempo estimado
-- Compatibilidade: o software deve trocar informações com diferentes sistemas e executar as funções necessárias enquanto compartilha hardware e/ou software
-- Manutenibilidade: o software deve ser facilmente modificado a fim de corrigir erros e/ou atender novos requisitos.
