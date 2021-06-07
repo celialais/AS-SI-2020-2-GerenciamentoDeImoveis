@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Integra Imoveis</title>
+      <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+      <div class='container'>
+        <div class='header'>
+          <h1>Integra Imoveis</h1>
+          <h4>Demonstracao de Servidor em tempo real</h4>
+        </div>
+        <h2>Lista de Imoveis</h2>
+        <h4>Adicionar Novos Imóveis</h4>
+        <form id='reviewForm'>
+          <input type="hidden" id='hiddenId' />
+          <input type="text" id='fullName' />
+          <br/>
+          <textarea id='message'></textarea>
+          <br/>
+          <button type='submit'>Adicionar / Atualizar Imovel</button>
+        </form>
+        <br/>
+        <h4>Imóveis Existentes / Excluir / Editar</h4>
+        <ul id='reviews'></ul>
+      </div>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+      <script src="main.js"></script>
+      <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    </body>
+</html>
